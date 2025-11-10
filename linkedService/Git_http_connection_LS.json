@@ -1,0 +1,13 @@
+{
+	"name": "Git_http_connection_LS",
+	"properties": {
+		"description": "This is the connection between Git and ADF using HTTP Connection",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
