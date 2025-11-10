@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "project-adf-course"
+		},
+		"LS_ADLS_storageadfcourse_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_storageadfcourse_properties_typeProperties_url": {
+			"value": "https://storageadfcourse.dfs.core.windows.net/"
+		}
+	}
+}
