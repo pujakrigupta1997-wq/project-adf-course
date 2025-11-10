@@ -1,18 +1,16 @@
 {
-	"name": "csv_destination",
+	"name": "git_source",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_ADLS_storageadfcourse",
+			"referenceName": "Git_http_connection_LS",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileName": "Fact_Sales_2.csv",
-				"folderPath": "csvfiles",
-				"fileSystem": "destination"
+				"type": "HttpServerLocation",
+				"relativeUrl": "pujakrigupta1997-wq/General_repo/refs/heads/main/Fact_Sales_2.csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
